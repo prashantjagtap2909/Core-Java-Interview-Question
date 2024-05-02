@@ -49,7 +49,42 @@
  **[⬆ Back to Top](#table-of-contents)**
 
 
-2. ### Basics of Java
+ ### Basics of Java
+ 1.  ####  What is a class??
+   - In Java, a class is a blueprint that defines the properties and methods of an object. We can use a class to create objects that share the same properties and behaviors.
+
+ 2.  ####  What are variables and the different types of variables?
+   - In Java, a variable is a named storage location that holds data. There are different types of variables, such as primitive data types (int, float, char, etc.) and reference data types (objects, arrays, etc.).
+
+3.  #### Why do we need custom variables and what are the benefits of using them?
+   - Custom variables allow us to store data specific to our program's needs. They are beneficial because they can improve code readability, maintainability, and reusability.
+
+4.  ####  How do you decide when to use a global variable and when to use a local variable?
+   - Global variables are accessible throughout your entire program, while local variables are only accessible within the block of code where they are declared. You should use local variables whenever possible to avoid naming conflicts and unintended side effects. Use global variables sparingly, and only when data needs to be accessed by multiple parts of your program.
+
+5.  ####  What is a method?
+   - In Java, a method is a block of code that performs a specific task. Methods can take parameters and return values.
+
+6.  ####  What is the purpose of the return statement in Java?
+   - The return statement is used to return a value from a method. A method can optionally return a value using the return keyword followed by the value to be returned.
+
+7.  ####  What is the use of the 'new' keyword in Java?
+   - The new keyword is used to create a new object from a class. When you use the new keyword, memory is allocated for the object, and the object's constructor is called.
+
+8.  ####  What is a runtime error? Can you explain with an example?
+   - A runtime error is an error that occurs while a program is running. Runtime errors are typically caused by mistakes in the program's logic, such as trying to divide by zero or accessing an array element out of bounds.
+
+9.  ####  How can you differentiate between a compile-time error and a runtime error?
+   - Compile-time errors are errors that are detected by the compiler before the program can even run. Syntax errors and type mismatches are examples of compile-time errors. Runtime errors, on the other hand, occur while the program is running.
+
+10.  ####  What is the difference between Heap and Stack memory?
+   - The heap and stack are two different memory areas used in Java programs. The heap is used to store dynamically allocated objects, while the stack is used to store method calls and local variables.
+
+11.  ####  What are the features of Java that you know?
+   - Java has many features that make it a popular programming language, including object-oriented programming, platform independence, automatic memory management, and security.
+
+ **[⬆ Back to Top](#table-of-contents)**     
+ 
 3. ### Package and Import
 4. ### Static
 5. ### Constructor
