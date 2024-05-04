@@ -118,7 +118,39 @@ A com.company.myapp.ui package for user interface classes.
 
  **[⬆ Back to Top](#table-of-contents)**  
  
-4. ### Static
+ ### Static
+
+1.  ####   What is static?
+   - In Java, static refers to a member (field, method, or nested class) that belongs to the class itself, rather than to an instance of the class. There is only one copy of a static member shared by all objects of the class.
+
+2.  ####   Can we make local variables static? Why or why not?
+   - No, we cannot declare local variables as static in Java. Local variables are specific to a particular method invocation and go out of scope when the method finishes executing. Static members, on the other hand, are associated with the class itself and exist throughout the lifetime of the program.
+
+3.  ####   Can we call non-static functions from a static function? Why or why not?
+   - Yes, we can call non-static methods from a static method in Java. Even though a static method cannot access non-static members directly, it can create an object of the class and call the non-static method on that object.
+
+4.  ####   Why is the main method static?
+   - The main method is declared as static in Java because it is the entry point of the program. The JVM looks for the main method to start executing the program. Since the main method is static, it can be called without creating an instance of the class that contains it.
+
+5.  ####   When do we use static variables? Can you explain with an example?
+   - Static variables are used to store data that is shared by all instances of a class. For example, you might use a static variable to count the number of objects that have been created from a class. Here's an example:
+
+    public class Counter {
+      private static int count = 0;
+    
+      public Counter() {
+        count++;
+      }
+    
+      public static int getCount() {
+        return count;
+      }
+    }
+
+In this example, the count variable is static. Every time a new Counter object is created, the count variable is incremented. The getCount method can be used to retrieve the current value of the count.
+
+ **[⬆ Back to Top](#table-of-contents)**  
+ 
 5. ### Constructor
 6. ### Encapsulation
 7. ### Polymorphism
