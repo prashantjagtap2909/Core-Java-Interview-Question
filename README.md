@@ -152,6 +152,49 @@ In this example, the count variable is static. Every time a new Counter object i
  **[⬆ Back to Top](#table-of-contents)**  
  
 5. ### Constructor
+
+1.  ####   What is a constructor?
+   - In Java, a constructor is a special method that is called when an object of a class is created. It is used to initialize the object's state (set the values of its fields).
+
+2.  ####   Can we make our constructor private? Why or why not?
+   - Yes, we can make a constructor private in Java. This means that the constructor can only be called from within the class itself. This can be useful for ensuring that objects are always created in a valid state. However, it also means that you cannot create objects of the class from other classes.
+
+3.  ####   Can we make our constructor static? Why or why not?
+   - No, we cannot make a constructor static in Java. Constructors are used to initialize objects, and static methods cannot access non-static members of the class. Additionally, static methods are called without creating an instance of the class, and constructors are used to create instances of the class.
+
+4.  ####   What is the use of a constructor?
+   - Constructors have several uses, including:
+Initializing object fields with default values
+Performing validation checks on input parameters
+Allocating resources for the object
+Chaining constructors together (calling one constructor from another
+
+5.  ####   Why does a constructor not inherit?
+   - Constructors are not inherited by subclasses in Java. This is because constructors are used to initialize objects of a specific class, and the initialization requirements for a subclass may be different from those of its superclass.
+
+6.  ####   What is constructor overloading? Explain with an example.
+   - Constructor overloading is a technique of creating multiple constructors in a class that have different parameter lists. This allows you to create objects of the class in different ways, depending on the data you have available.
+For example, here is a class Person with two overloaded constructors:
+
+
+         public class Person {
+           private String name;
+           private int age;
+         
+           public Person(String name) {
+             this.name = name;
+           }
+         
+           public Person(String name, int age) {
+             this.name = name;
+             this.age = age;
+           }
+         }
+
+In this example, the first constructor takes a single parameter for the name, and the second constructor takes two parameters for the name and age. You can use either constructor to create a Person object, depending on whether you have the person's age or not.
+
+ **[⬆ Back to Top](#table-of-contents)**  
+
 6. ### Encapsulation
 7. ### Polymorphism
 8. ### Abstraction
