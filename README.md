@@ -196,6 +196,31 @@ In this example, the first constructor takes a single parameter for the name, an
  **[⬆ Back to Top](#table-of-contents)**  
 
 6. ### Encapsulation
+
+1.  ####   What is Encapsulation?
+   - Encapsulation is a fundamental concept in object-oriented programming (OOP) that refers to the bundling of data (fields) and methods that operate on that data together within a single unit, typically a class in Java.
+
+2.  ####   How to Achieve Encapsulation?
+
+   - Encapsulation is achieved by declaring the class's variables as private. This means that they can only be accessed directly by the methods within the class. To access or modify the private variables, you can use public getter and setter methods.
+
+3.  ####   What is the Role of Private in Encapsulation?
+
+   - The private keyword is a key mechanism to achieve encapsulation in Java. By declaring class members (fields, methods) as private, you restrict their direct access from outside the class. This promotes data hiding and prevents external code from accidentally modifying the data in an unexpected way.
+
+4.  ####   Why is Encapsulation Required?
+
+   - Encapsulation offers several benefits, including:
+Data hiding: Protects data from unauthorized access and modification.
+Data integrity: Ensures that data is only modified through well-defined methods, reducing the risk of errors.
+Modular design: Promotes modularity by keeping the internal implementation details of a class hidden from external code.
+Improved maintainability: Makes code easier to maintain by allowing you to change the implementation details of a class without affecting other parts of your program.
+
+5.  ####   Have you done encapsulation in your project?
+   - Encapsulation is a best practice in object-oriented programming, and we have used it in projects where the code involves classes.
+
+ **[⬆ Back to Top](#table-of-contents)**  
+
 7. ### Polymorphism
 8. ### Abstraction
 9. ### Inheritance
