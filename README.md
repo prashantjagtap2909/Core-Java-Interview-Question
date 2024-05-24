@@ -222,6 +222,10 @@ Improved maintainability: Makes code easier to maintain by allowing you to chang
  **[⬆ Back to Top](#table-of-contents)**  
 
 7. ### Polymorphism
+1.  ####   What is Polymorphism?
+
+   - Polymorphism refers to the ability of objects of different classes to respond to the same method call in different ways. In Java, polymorphism is achieved through method overriding and method overloading.
+
 8. ### Abstraction
 9. ### Inheritance
 10. ### Multithreading
